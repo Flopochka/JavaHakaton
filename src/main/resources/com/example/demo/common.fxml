@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutY="-1.0" prefHeight="678.0" prefWidth="375.0" spacing="30.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" prefHeight="100.0" prefWidth="345.0" text="MathSkills" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="197.0" prefWidth="345.0" spacing="15.0">
+               <children>
+                  <TextField fx:id="EmailInput" prefWidth="346.0" promptText="Ваш E-mail">
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="PasswordInput" prefHeight="45.0" prefWidth="345.0" promptText="Ваш пароль">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font></PasswordField>
+                  <Button fx:id="LoginBtn" mnemonicParsing="false" prefHeight="46.0" prefWidth="316.0" text="Войти" textAlignment="CENTER" VBox.vgrow="ALWAYS">
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin></Button>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="345.0" text="или">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+               <children>
+                  <Button fx:id="Registerbtn" mnemonicParsing="false" prefHeight="50.0" prefWidth="345.0" text="Зарегестрироватся">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="GuestBtn" mnemonicParsing="false" prefHeight="50.0" prefWidth="345.0" text="Войти как гость">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children></VBox>
+   </children>
+</AnchorPane>
